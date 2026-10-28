@@ -4,7 +4,7 @@ Learning monorepo: small labs (00–16) for the Sabbatical agent-engineering pat
 
 | Lab | Topic | Status |
 |-----|--------|--------|
-| 00 | LLM inference basics | stub |
+| 00 | LLM inference basics | done |
 | 01–16 | See plan | pending |
 
 ## Run a lab
