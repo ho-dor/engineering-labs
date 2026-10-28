@@ -18,22 +18,8 @@ From a lab directory (e.g. `labs/00-llm-inference-basics`):
 
 Repo-wide: see [README.md](README.md) and [docs/COMMITS.md](docs/COMMITS.md).
 
-## Agent skills
+## Cursor skills
 
-### Issue tracker
+Repo-specific skills live under `.cursor/skills/` when present (eval-first, production-agent patterns, etc.).
 
-Work is tracked as markdown under `.scratch/` until GitHub is wired up. See `docs/agents/issue-tracker.md`.
-
-### Triage labels
-
-Default five-role vocabulary (`needs-triage`, `needs-info`, `ready-for-agent`, `ready-for-human`, `wontfix`). See `docs/agents/triage-labels.md`.
-
-### Domain docs
-
-Single-context layout: root `GLOSSARY.md` (when created) and `docs/adr/`. See `docs/agents/domain.md`.
-
-## Matt Pocock workflow
-
-Skills live in [`.agents/skills/`](.agents/skills/). Typical feature flow: `/grill-with-docs` → `/to-spec` → `/to-tickets` → `/implement`.
-
-Repo-specific skills (eval-first, etc.) may live under `.cursor/skills/` when added.
+Optional **local-only** Matt Pocock skills (not in git): see [docs/LOCAL-DEV.md](docs/LOCAL-DEV.md).

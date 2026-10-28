@@ -5,3 +5,9 @@ __pycache__/
 .pytest_cache/
 .ruff_cache/
 .DS_Store
+
+# Local-only Cursor agent skills (Matt Pocock bundle); install with npx skills — not published
+.agents/
+skills-lock.json
+docs/agents/
+.scratch/
