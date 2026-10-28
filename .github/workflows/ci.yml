@@ -1,0 +1,20 @@
+name: ci
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  lab00:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: labs/00-llm-inference-basics
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v5
+      - run: uv sync --extra dev
+      - run: uv run pytest
+      - run: uv run ruff check src tests || true
