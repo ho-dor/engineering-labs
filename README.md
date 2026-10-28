@@ -17,6 +17,12 @@ uv run pytest
 uv run python -m lab.main
 ```
 
+## Matt Pocock skills (Cursor)
+
+Installed under [`.agents/skills/`](.agents/skills/) (38 skills). Repo config: [`docs/agents/`](docs/agents/) (local issue tracker in [`.scratch/`](.scratch/)).
+
+Use e.g. `/grill-with-docs` → `/to-spec` → `/to-tickets` → `/implement` for feature work.
+
 ## Docs
 
 - [COMMITS.md](docs/COMMITS.md) — commit message conventions
